@@ -1,0 +1,2 @@
+otpauth://totp/GitHub:Tester?secret=MFZWIZQ=&issuer=GitHub
+otpauth://totp/Steam:Tester?secret=MZSHGYI=&issuer=Steam

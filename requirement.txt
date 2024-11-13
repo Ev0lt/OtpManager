@@ -1,0 +1,7 @@
+pyzbar
+pillow
+typing
+PyQt6
+pycryptodome
+numpy
+pywin32
