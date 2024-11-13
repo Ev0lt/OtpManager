@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>848</width>
+    <width>824</width>
     <height>865</height>
    </rect>
   </property>
@@ -16,7 +16,7 @@
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>110</x>
+     <x>60</x>
      <y>60</y>
      <width>121</width>
      <height>51</height>
@@ -26,14 +26,17 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>70</y>
-     <width>71</width>
+     <width>51</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
     <string>功能</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -42,7 +45,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>190</x>
      <y>60</y>
      <width>491</width>
      <height>51</height>
@@ -52,8 +55,8 @@
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>170</y>
+     <x>90</x>
+     <y>180</y>
      <width>671</width>
      <height>391</height>
     </rect>
@@ -70,7 +73,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>50</x>
      <y>740</y>
      <width>771</width>
      <height>61</height>
@@ -86,7 +89,7 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>710</x>
      <y>60</y>
      <width>91</width>
      <height>51</height>
@@ -99,7 +102,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>150</x>
      <y>630</y>
      <width>111</width>
      <height>71</height>
@@ -112,7 +115,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>340</x>
      <y>620</y>
      <width>231</width>
      <height>81</height>
@@ -128,6 +131,9 @@
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
  </widget>

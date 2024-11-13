@@ -1,10 +1,11 @@
 from lib.config import config
-from PyQt6.QtWidgets import QMainWindow,QApplication,QMessageBox,QDialog,QLineEdit,QFrame
+from PyQt6.QtWidgets import QMainWindow,QApplication,QMessageBox,QDialog,QLineEdit
 from PyQt6.QtCore import QTimer
 from PIL import ImageGrab
 from lib.configure import Ui_Dialog as configUi
 from win32 import win32api, win32gui, win32print
 from win32.lib import win32con
+from PyQt6 import QtCore
 from threading import Thread
 import lib.DrawUi as ui
 import lib.config as conf
@@ -180,6 +181,9 @@ class drawSubSubWindowConfigure(drawSubWindowConfigure):
 class draw(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.setWindowTitle("Manager")
+        self.setFixedSize(824,865)
+        self.setWindowFlag(QtCore.Qt.WindowType.WindowMaximizeButtonHint, False)
         self.screenWidth=0
         self.screenHeight=0
         self.ui = ui.MainWin()
