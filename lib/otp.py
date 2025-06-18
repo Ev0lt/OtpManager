@@ -37,7 +37,7 @@ class otp:
       cnf.algorithm = hashlib.blake2s
 
     self.key = cnf.secret
-    if cnf.type == "totp" and (cnf.acName.lower() == "steam" or cnf.issuer.lower() == "steam"):
+    if cnf.type == "totp" and (cnf.acName.lower() == "steam" or cnf.issuer.lower() == "steam") or cnf.type.lower() == "steam":
         return self.steam()
     
     elif cnf.type == "totp":
